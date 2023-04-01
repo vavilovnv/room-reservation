@@ -20,7 +20,7 @@
 [![Docker][Docker-badge]][Docker-url]
 [![Swagger][Swagger-badge]][Swagger-url]
 
-## Установка и запуск
+## Установка и запуск (локально)
 
 * Клонировать репозитарий:
 ```
@@ -43,7 +43,15 @@ alembic upgrade head
 ```
 python3 ./app/main.py
 ```
-* Открыть страницу документации (http://127.0.0.1:8000/docs) в формате swagger и проверить методы CRUD.
+* Открыть страницу документации (http://127.0.0.1:8000/docs) и проверить методы CRUD.
+
+## Установка и запуск (docker)
+
+* Запустить контейнер:
+```
+sudo docker-compose up -d --build
+```
+* Открыть страницу документации (http://0.0.0.0:8080/docs) и проверить эндпоинты.
 
 <!-- MARKDOWN BADGES & URLs -->
 [Python-badge]: https://img.shields.io/badge/python%203.9+-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
