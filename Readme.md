@@ -21,8 +21,8 @@
 [![SQLAlchemy][SQLAlchemy-badge]][SQLAlchemy-url]
 [![SQLite][SQLite-badge]][SQLite-url]
 [![Docker][Docker-badge]][Docker-url]
-[![Swagger][Swagger-badge]][Swagger-url]
 [![Google cloud][Google-cloud-badge]][Google-cloud-url]
+[![Swagger][Swagger-badge]][Swagger-url]
 
 ## Установка и запуск (локально)
 
