@@ -7,7 +7,10 @@
 2. Создание/удаление/изменение переговорных комнат (доступно администратору)
 3. Просмотр переговорных комнат и имеющихся по ним бронирований.
 4. Бронирование, обновление/удаление бронирований (доступно автору бронирования и администратору)
-5. Получение списка имеющихся бронирований и бронирований по пользователю. 
+5. Получение списка имеющихся бронирований и бронирований по пользователю.
+6. Получение списка с количеством бронирований переговорок с автоматическим формированием отчета в google-spreadsheets при помощи google.api. После формирования отчет будет автоматически добавлен на ваш google drive.
+
+**Внимание!** Для полноценной работы п.6 потребуется создать сервисный аккаунт google-cloud и получить токен с учетными данными для заполнения .env файла.
 
 <img src="docs/api.png" alt="API example">
 
@@ -19,6 +22,7 @@
 [![SQLite][SQLite-badge]][SQLite-url]
 [![Docker][Docker-badge]][Docker-url]
 [![Swagger][Swagger-badge]][Swagger-url]
+[![Google cloud][Google-cloud-badge]][Google-cloud-url]
 
 ## Установка и запуск (локально)
 
@@ -77,3 +81,7 @@ sudo docker-compose up -d --build
 [Swagger-badge]: https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white
 
 [Swagger-url]: https://swagger.io/
+
+[Google-cloud-badge]: https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white
+
+[Google-cloud-url]: https://cloud.google.com/
