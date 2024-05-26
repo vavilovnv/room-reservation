@@ -32,12 +32,11 @@ git clone https://github.com/vavilovnv/room_reservation
 ```
 * Установить и активировать виртуальное окружение:
 ```
-python3 -m venv venv
-source venv/bin/activate
+poetry shell
 ```
 * Установить все зависимости:
 ```
-pip install -r requirements.txt
+poetry install
 ```
 * Выполнить миграции:
 ```
